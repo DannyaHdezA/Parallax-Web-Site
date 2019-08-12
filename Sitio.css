@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    /* box-sizing: border-box; */
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.sec1 {
+    background: url('./Imagenes/fondo1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.sec2 {
+    background: url('./Imagenes/fondo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.sec3 {
+    background: url('./Imagenes/fondo3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.lista {
+    margin-top: 160px;
+    padding: 0;
+}
+
+ul {
+    margin-top: 20px;
+    margin: 0%;
+    /* padding: 0%; */
+    display: flex;
+    position: relative;
+    padding: 2px 5px;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0 20px;
+    color: black;
+    font-size: 60px;
+}
