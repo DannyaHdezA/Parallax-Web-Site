@@ -156,6 +156,8 @@ h2 {
     text-align: center;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
+    color: black;
 }
 
 .secText2 {
@@ -246,5 +248,5 @@ footer p {
 
 .formulario button:hover {
     cursor: pointer;
-    background: rgb(236, 234, 234);
+    background: gray;
 }
