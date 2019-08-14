@@ -49,12 +49,18 @@ section {
     align-items: center;
     font-size: 30px;
     margin-top: 20px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .lista {
     margin-top: 160px;
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0;
+    position: absolute;
 }
 
 ul {
@@ -71,4 +77,173 @@ ul li {
     margin: 0 20px;
     color: black;
     font-size: 60px;
+}
+
+ul li:hover {
+    color: tomato;
+    cursor: pointer;
+}
+
+.secText1 {
+    width: 100%;
+    height: 140vh;
+}
+
+h2 {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    margin: 50px;
+}
+
+.galeria {
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+
+.galeria>div {
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.galeria>div>img {
+    display: block;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 2px solid white;
+}
+
+.galeria>div>img:hover {
+    cursor: pointer;
+    opacity: .5;
+}
+
+.texto {
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto>div {
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto>div>h3 {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.secText2 {
+    padding: 65px 180px;
+    width: 100%;
+    height: auto;
+}
+
+.secText2 p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.formulario {
+    margin: 0 auto;
+    width: 800px;
+    height: 50vh;
+    padding: 14px;
+    align-content: center;
+    align-items: center;
+}
+
+.formulario input {
+    font-size: 20px;
+    padding: 4px 2px;
+    border: solid 1px black;
+    width: 800px;
+    height: 5vh;
+    margin: 2px 0 20px 10px;
+}
+
+.formulario textarea {
+    font-size: 20px;
+    padding: 4px 2px;
+    border: solid 1px black;
+    width: 800px;
+    height: 30vh;
+    margin: 2px 0 20px 10px;
+}
+
+.formulario button {
+    float: right;
+    margin: 0 auto;
+    width: 159px;
+    height: 40px;
+    background: #3f3d3d;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
+.formulario textarea:hover,
+.formulario input:hover {
+    background: rgb(236, 234, 234);
+}
+
+footer {
+    clear: both;
+    background: rgb(214, 90, 45);
+    height: 8vh;
+    color: white;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer p {
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.icon label {
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.icon i {
+    font-size: 30px;
+}
+
+.icon i:hover,
+.icon label:hover {
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    cursor: pointer;
+    background: rgb(236, 234, 234);
 }
